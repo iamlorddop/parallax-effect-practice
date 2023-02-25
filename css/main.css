@@ -137,7 +137,10 @@ body {
 
 .copy {
 	position: absolute;
+	left: 50%;
 	bottom: calc(var(--index) * 2.5);
+	margin-left: -130px;
+	width: 260px;
 	font-size: calc(var(--index) * .75);
 	letter-spacing: calc(var(--index) / 37.5);
 	text-align: center;
